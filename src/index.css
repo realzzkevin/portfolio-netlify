@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  border-width: 0;
+}
+/* defind colors use in the page.*/
+:root{
+--mainColor: rgb(185, 204, 211);
+--highLight: rgba(16, 19, 163, 0.575);
+--frameColor: rgb(203, 223, 22);
+--fontColor: rgb(8, 62, 207);
+--fontColorLight:rgb(255, 255, 255);
+--darkGray: rgb(52, 61, 82);
+}
+html {
+  height: 100%;
+}
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: var(--darkGray);
+  padding-top: 70px;
+  position: relative;
+  height: 100%;
+}
+/* try to create a sticky footer.*/
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+nav {
+  align-items: flex-start;
+}
+
+#my-photo {
+  height:6cm;
+  width: 6cm;
+  padding: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#resume-link {
+  object-fit: cover;
+  object-position: center;
+  margin: 1px;
+}
+
+.gallery-card {
+  margin: 5px;
+  padding-top: 2px; 
+}
+
+.nav-pills .nav-item .active {
+  background-color: var(--darkGray);
+  color:antiquewhite;
+}
+
+.fa-icon {
+  color: white;
+}
+
+
+
+/* use @media to control display options for nav dropdown menu and pill style menu*/
+@media screen and (min-width: 993px){
+  
+  #nav-dropdown, #navbarNavDarkDropdown{
+      display: none;
+  }
+
+}
+
+@media screen and (max-width:992px){
+  
+  #nav-dropdown {
+      display: none;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  
+  #nav-dropdown {
+      display: block;
+  }
+
+  #nav-bar-tabs {
+      display: none;
+  }
+}
