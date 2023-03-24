@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bc5b754e.css",
+    "main.js": "./static/js/main.77e6ff5c.js",
+    "static/media/Dinner-Planner.png": "./static/media/Dinner-Planner.b2aedd30099e8a0d8a9a.png",
+    "static/media/Zhong_Zheng_resume.pdf": "./static/media/Zhong_Zheng_resume.1bef870ec106d776d852.pdf",
+    "static/media/weather-dashboard.png": "./static/media/weather-dashboard.b2ab4272862b9d5cf73d.png",
+    "static/media/Tech-Blog.png": "./static/media/Tech-Blog.a690827ad96989dec2be.png",
+    "static/media/team-profile.png": "./static/media/team-profile.fc574867e84fbede4455.png",
+    "static/media/employees-database.png": "./static/media/employees-database.a9912558c5d76e875af6.png",
+    "static/media/workday-scheduler.png": "./static/media/workday-scheduler.4ff10bdbebe7dface415.png",
+    "static/media/myphoto.jpg": "./static/media/myphoto.8ed8edd238df40781b29.jpg",
+    "static/media/resume-img.png": "./static/media/resume-img.00f603002d5346b2b332.png",
+    "index.html": "./index.html",
+    "main.bc5b754e.css.map": "./static/css/main.bc5b754e.css.map",
+    "main.77e6ff5c.js.map": "./static/js/main.77e6ff5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc5b754e.css",
+    "static/js/main.77e6ff5c.js"
+  ]
+}
